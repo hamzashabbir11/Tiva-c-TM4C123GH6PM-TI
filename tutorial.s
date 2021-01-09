@@ -7,8 +7,9 @@
 main
 
 	LDR R0, R1,#0xC
-	MOV R1,#0x8
+	MOV R1,#0x8 
 	ADD R2,R0,R1
 	MOV R6,#0xd
+	SUB r6,r0,r1
 S	B S
 	END
